@@ -1,0 +1,388 @@
+{"users": 
+	[
+	  {
+		"user_id": "jlarson",
+		"user_name": "John",
+		"user_surname": "Larson",
+		"user_email": "john.larson@example.com",
+		"department": "Sales",
+		"password": "jlarson123"
+	  },
+	  {
+		"user_id": "dsullivan",
+		"user_name": "David",
+		"user_surname": "Sullivan",
+		"user_email": "david.sullivan@example.com",
+		"department": "Marketing",
+		"password": "dsullivan456"
+	  },
+	  {
+		"user_id": "asmith",
+		"user_name": "Alice",
+		"user_surname": "Smith",
+		"user_email": "alice.smith@example.com",
+		"department": "HR",
+		"password": "asmith789"
+	  },
+	  {
+		"user_id": "bwilson",
+		"user_name": "Ben",
+		"user_surname": "Wilson",
+		"user_email": "ben.wilson@example.com",
+		"department": "Finance",
+		"password": "bwilson321"
+	  },
+	  {
+		"user_id": "krodriguez",
+		"user_name": "Karen",
+		"user_surname": "Rodriguez",
+		"user_email": "karen.rodriguez@example.com",
+		"department": "IT",
+		"password": "krodriguez654"
+	  },
+	  {
+		"user_id": "emiller",
+		"user_name": "Emily",
+		"user_surname": "Miller",
+		"user_email": "emily.miller@example.com",
+		"department": "Operations",
+		"password": "emiller987"
+	  },
+	  {
+		"user_id": "rturner",
+		"user_name": "Robert",
+		"user_surname": "Turner",
+		"user_email": "robert.turner@example.com",
+		"department": "Sales",
+		"password": "rturner246"
+	  },
+	  {
+		"user_id": "jlee",
+		"user_name": "Jennifer",
+		"user_surname": "Lee",
+		"user_email": "jennifer.lee@example.com",
+		"department": "Marketing",
+		"password": "jlee135"
+	  },
+	  {
+		"user_id": "mhall",
+		"user_name": "Michael",
+		"user_surname": "Hall",
+		"user_email": "michael.hall@example.com",
+		"department": "HR",
+		"password": "mhall579"
+	  },
+	  {
+		"user_id": "msanchez",
+		"user_name": "Maria",
+		"user_surname": "Sanchez",
+		"user_email": "maria.sanchez@example.com",
+		"department": "Finance",
+		"password": "msanchez864"
+	  },
+	  {
+		"user_id": "cyoung",
+		"user_name": "Christopher",
+		"user_surname": "Young",
+		"user_email": "christopher.young@example.com",
+		"department": "IT",
+		"password": "cyoung123"
+	  },
+	  {
+		"user_id": "hsimmons",
+		"user_name": "Hannah",
+		"user_surname": "Simmons",
+		"user_email": "hannah.simmons@example.com",
+		"department": "Operations",
+		"password": "hsimmons456"
+	  },
+	  {
+		"user_id": "sjames",
+		"user_name": "Sarah",
+		"user_surname": "James",
+		"user_email": "sarah.james@example.com",
+		"department": "Sales",
+		"password": "sjames789"
+	  },
+	  {
+		"user_id": "jhill",
+		"user_name": "Jonathan",
+		"user_surname": "Hill",
+		"user_email": "jonathan.hill@example.com",
+		"department": "Marketing",
+		"password": "jhill987"
+	  },
+	  {
+		"user_id": "lthompson",
+		"user_name": "Laura",
+		"user_surname": "Thompson",
+		"user_email": "laura.thompson@example.com",
+		"department": "HR",
+		"password": "lthompson654"
+	  },
+	  {
+		"user_id": "gphillips",
+		"user_name": "Gregory",
+		"user_surname": "Phillips",
+		"user_email": "gregory.phillips@example.com",
+		"department": "Finance",
+		"password": "gphillips321"
+	  },
+	  {
+		"user_id": "jdavis",
+		"user_name": "Jessica",
+		"user_surname": "Davis",
+		"user_email": "jessica.davis@example.com",
+		"department": "IT",
+		"password": "jdavis789"
+	  },
+	  {
+		"user_id": "tmorgan",
+		"user_name": "Thomas",
+		"user_surname": "Morgan",
+		"user_email": "thomas.morgan@example.com",
+		"department": "Operations",
+		"password": "tmorgan246"
+	  },
+	  {
+		"user_id": "rbrown",
+		"user_name": "Rebecca",
+		"user_surname": "Brown",
+		"user_email": "rebecca.brown@example.com",
+		"department": "Sales",
+		"password": "rbrown135"
+	  },
+	  {
+		"user_id": "mroberts",
+		"user_name": "Matthew",
+		"user_surname": "Roberts",
+		"user_email": "matthew.roberts@example.com",
+		"department": "Marketing",
+		"password": "mroberts579"
+	  },
+	  {
+		"user_id": "spatel",
+		"user_name": "Sophia",
+		"user_surname": "Patel",
+		"user_email": "sophia.patel@example.com",
+		"department": "HR",
+		"password": "spatel864"
+	  },
+	  {
+		"user_id": "kmorris",
+		"user_name": "Kevin",
+		"user_surname": "Morris",
+		"user_email": "kevin.morris@example.com",
+		"department": "Finance",
+		"password": "kmorris123"
+	  },
+	  {
+		"user_id": "ldiaz",
+		"user_name": "Lily",
+		"user_surname": "Diaz",
+		"user_email": "lily.diaz@example.com",
+		"department": "IT",
+		"password": "ldiaz456"
+	  },
+	  {
+		"user_id": "rparker",
+		"user_name": "Ryan",
+		"user_surname": "Parker",
+		"user_email": "ryan.parker@example.com",
+		"department": "Operations",
+		"password": "rparker789"
+	  },
+	  {
+		"user_id": "ewalker",
+		"user_name": "Elizabeth",
+		"user_surname": "Walker",
+		"user_email": "elizabeth.walker@example.com",
+		"department": "Sales",
+		"password": "ewalker987"
+	  },
+	  {
+		"user_id": "nwood",
+		"user_name": "Noah",
+		"user_surname": "Wood",
+		"user_email": "noah.wood@example.com",
+		"department": "Marketing",
+		"password": "nwood321"
+	  },
+	  {
+		"user_id": "vturner",
+		"user_name": "Victoria",
+		"user_surname": "Turner",
+		"user_email": "victoria.turner@example.com",
+		"department": "HR",
+		"password": "vturner654"
+	  },
+	  {
+		"user_id": "agarcia",
+		"user_name": "Alexander",
+		"user_surname": "Garcia",
+		"user_email": "alexander.garcia@example.com",
+		"department": "Finance",
+		"password": "agarcia987"
+	  },
+	  {
+		"user_id": "jpowell",
+		"user_name": "Julia",
+		"user_surname": "Powell",
+		"user_email": "julia.powell@example.com",
+		"department": "IT",
+		"password": "jpowell246"
+	  },
+	  {
+		"user_id": "cmorgan",
+		"user_name": "Christopher",
+		"user_surname": "Morgan",
+		"user_email": "christopher.morgan@example.com",
+		"department": "Operations",
+		"password": "cmorgan135"
+	  },
+	  {
+		"user_id": "aharris",
+		"user_name": "Abigail",
+		"user_surname": "Harris",
+		"user_email": "abigail.harris@example.com",
+		"department": "Sales",
+		"password": "aharris579"
+	  },
+	  {
+		"user_id": "ajenkins",
+		"user_name": "Andrew",
+		"user_surname": "Jenkins",
+		"user_email": "andrew.jenkins@example.com",
+		"department": "Marketing",
+		"password": "ajenkins864"
+	  },
+	  {
+		"user_id": "mlong",
+		"user_name": "Mia",
+		"user_surname": "Long",
+		"user_email": "mia.long@example.com",
+		"department": "HR",
+		"password": "mlong123"
+	  },
+	  {
+		"user_id": "jrogers",
+		"user_name": "Joseph",
+		"user_surname": "Rogers",
+		"user_email": "joseph.rogers@example.com",
+		"department": "Finance",
+		"password": "jrogers456"
+	  },
+	  {
+		"user_id": "sshaw",
+		"user_name": "Sophie",
+		"user_surname": "Shaw",
+		"user_email": "sophie.shaw@example.com",
+		"department": "IT",
+		"password": "sshaw789"
+	  },
+	  {
+		"user_id": "btaylor",
+		"user_name": "Brandon",
+		"user_surname": "Taylor",
+		"user_email": "brandon.taylor@example.com",
+		"department": "Operations",
+		"password": "btaylor246"
+	  },
+	  {
+		"user_id": "glewis",
+		"user_name": "Grace",
+		"user_surname": "Lewis",
+		"user_email": "grace.lewis@example.com",
+		"department": "Sales",
+		"password": "glewis135"
+	  },
+	  {
+		"user_id": "ehughes",
+		"user_name": "Ethan",
+		"user_surname": "Hughes",
+		"user_email": "ethan.hughes@example.com",
+		"department": "Marketing",
+		"password": "ehughes579"
+	  },
+	  {
+		"user_id": "kkelly",
+		"user_name": "Katherine",
+		"user_surname": "Kelly",
+		"user_email": "katherine.kelly@example.com",
+		"department": "HR",
+		"password": "kkelly864"
+	  },
+	  {
+		"user_id": "wmurphy",
+		"user_name": "William",
+		"user_surname": "Murphy",
+		"user_email": "william.murphy@example.com",
+		"department": "Finance",
+		"password": "wmurphy123"
+	  },
+	  {
+		"user_id": "jcox",
+		"user_name": "Julia",
+		"user_surname": "Cox",
+		"user_email": "julia.cox@example.com",
+		"department": "IT",
+		"password": "jcox456"
+	  },
+	  {
+		"user_id": "lmorris",
+		"user_name": "Liam",
+		"user_surname": "Morris",
+		"user_email": "liam.morris@example.com",
+		"department": "Operations",
+		"password": "lmorris789"
+	  },
+	  {
+		"user_id": "ajames",
+		"user_name": "Amelia",
+		"user_surname": "James",
+		"user_email": "amelia.james@example.com",
+		"department": "Sales",
+		"password": "ajames246"
+	  },
+	  {
+		"user_id": "dpeterson",
+		"user_name": "Daniel",
+		"user_surname": "Peterson",
+		"user_email": "daniel.peterson@example.com",
+		"department": "Marketing",
+		"password": "dpeterson135"
+	  },
+	  {
+		"user_id": "alopez",
+		"user_name": "Ava",
+		"user_surname": "Lopez",
+		"user_email": "ava.lopez@example.com",
+		"department": "HR",
+		"password": "alopez579"
+	  },
+	  {
+		"user_id": "jrivera",
+		"user_name": "James",
+		"user_surname": "Rivera",
+		"user_email": "james.rivera@example.com",
+		"department": "Finance",
+		"password": "jrivera864"
+	  },
+	  {
+		"user_id": "bcooper",
+		"user_name": "Bella",
+		"user_surname": "Cooper",
+		"user_email": "bella.cooper@example.com",
+		"department": "IT",
+		"password": "bcooper123"
+	  },
+	  {
+		"user_id": "hmorgan",
+		"user_name": "Henry",
+		"user_surname": "Morgan",
+		"user_email": "henry.morgan@example.com",
+		"department": "Operations",
+		"password": "hmorgan456"
+	  }
+	]
+}
