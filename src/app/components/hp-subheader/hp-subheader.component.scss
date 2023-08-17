@@ -1,0 +1,13 @@
+@import "/src/app/scss/variables";
+
+.hpSubHeader {
+  height: 3.5rem;
+  width: 100%;
+  background: $primary10;
+  margin-top: 5rem;
+  padding: 0 2rem;
+
+  &__search {
+    width: 25%;
+  }
+}

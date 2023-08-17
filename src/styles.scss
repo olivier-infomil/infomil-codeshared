@@ -1,1 +1,35 @@
+@import "./app/scss/importAll.scss";
+
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  color: $textDark;
+  font-size: 1rem;
+}
+
+.container {
+  padding: 1rem 2rem;
+  width: 100%;
+  min-height: 2rem;
+  margin: 0 auto;
+}
+
+
+// Global Overrides for primeNg ?
+.p-inputtext,
+.p-autocomplete,
+.p-inputwrapper {
+  width: 100%;
+  display: flex;
+}

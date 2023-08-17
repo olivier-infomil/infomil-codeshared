@@ -30,6 +30,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeng/resources/themes/mira/theme.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -93,6 +97,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeng/resources/themes/bootstrap4-light-blue/theme.css",
               "src/styles.scss"
             ],
             "scripts": []

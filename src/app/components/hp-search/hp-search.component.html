@@ -1,0 +1,4 @@
+<div class="hp-search p-input-icon-left">
+  <i class="pi pi-search"></i>
+  <p-autoComplete [(ngModel)]="searchVal" [suggestions]="filteredSearch" (completeMethod)="search($event)"></p-autoComplete>
+</div>
