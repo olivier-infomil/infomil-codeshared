@@ -4,7 +4,11 @@
   </div>
 
   <div>
-    
+    <div class="userSection flex align-items-center" *ngIf="showAccountSection">
+      <span class="mr-3">Welcome guest</span>
+      <p-button  icon="pi pi-user" styleClass="p-button-rounded p-button-primary" (click)="fnShowLogin()"></p-button>
+    </div>
   </div>
+
 </div>
 

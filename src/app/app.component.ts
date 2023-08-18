@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'infomil-codeshare';
+  title = 'Infomil KRS';
+
+  constructor(private router: Router, private _route: ActivatedRoute) {
+
+  }
+
+  ngOnInit(): void {
+
+  }
+
 }

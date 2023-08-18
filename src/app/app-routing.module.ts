@@ -14,28 +14,31 @@ import { AddEditQuestionComponent } from './pages/question/add-edit-question/add
 import { SearchComponent } from './pages/search/search.component';
 
 
-
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'search', component: SearchComponent},
-  { path: 'user/:id', component: DashboardComponent},
-  { path: 'activate', component: ActivateComponent},
-  { path: 'activate/:id/:key', component: ActivateComponent},
-  { path: 'logout', component: LogoutComponent},
-  { path: 'articles', component: ListArticleComponent},
-  { path: 'articles/view/:id', component: ViewArticleComponent},
-  { path: 'articles/edit/:id', component: AddEditArticleComponent},
-  { path: 'articles/add', component: AddEditArticleComponent},
-  { path: 'questions', component: ListQuestionComponent},
-  { path: 'questions/view/:id', component: ViewQuestionComponent},
-  { path: 'questions/edit/:id', component: AddEditQuestionComponent},
-  { path: 'questions/add', component: AddEditQuestionComponent},
-  { path: '404', component: ErrorPageComponent },
-  { path: '405', component: ErrorPageComponent },
-  { path: '500', component: ErrorPageComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full', data: {title:'Infomil KRS - Homepage', showAccount: true}},
+  { path: 'search', component: SearchComponent, data: {title:'Infomil KRS - Advance search', showAccount: true} },
+  { path: 'user/:id', component: DashboardComponent, data: {title:'Infomil KRS - My dashboard', showAccount: true} },
+  { path: 'activate', component: ActivateComponent, data: {title:'Infomil KRS - Activate your account', showAccount: false} },
+  { path: 'activate/:id/:key', component: ActivateComponent, data: {title:'Infomil KRS - Activate your account', showAccount: false}},
+  { path: 'logout', component: LogoutComponent, data: {title:'Infomil KRS - Logout', showAccount: false}},
+  { path: 'articles', component: ListArticleComponent, data: {title:'Infomil KRS - Articles', showAccount: true}},
+  { path: 'articles/view/:id', component: ViewArticleComponent, data: {title:'Infomil KRS - View article', showAccount: true}},
+  { path: 'articles/edit/:id', component: AddEditArticleComponent, data: {title:'Infomil KRS - Edit article', showAccount: true}},
+  { path: 'articles/add', component: AddEditArticleComponent, data: {title:'Infomil KRS - Add article', showAccount: true}},
+  { path: 'questions', component: ListQuestionComponent, data: {title:'Infomil KRS - Questions', showAccount: true}},
+  { path: 'questions/view/:id', component: ViewQuestionComponent, data: {title:'Infomil KRS - View question', showAccount: true}},
+  { path: 'questions/edit/:id', component: AddEditQuestionComponent, data: {title:'Infomil KRS - Edit a question', showAccount: true}},
+  { path: 'questions/add', component: AddEditQuestionComponent, data: {title:'Infomil KRS - Add a question', showAccount: true}},
+
+  { path: '400', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 404', showAccount: false, errorCode: 400}},
+  { path: '401', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 404', showAccount: false, errorCode: 401}},
+  { path: '404', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 404', showAccount: false, errorCode: 404}},
+  { path: '405', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 405', showAccount: false, errorCode: 405}},
+  { path: '408', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 405', showAccount: false, errorCode: 408}},
+  { path: '500', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 500', showAccount: false, errorCode: 500}},
 
   // Catching all other routes for unknown paths
-  { path: '**', redirectTo: '/404' }
+  { path: '**', redirectTo: '/404', data: {showAccount: false} }
 ];
 
 @NgModule({

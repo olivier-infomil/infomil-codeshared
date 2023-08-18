@@ -1,1 +1,8 @@
-<p>error-page works!</p>
+<div class="error flex justify-content-center align-items-center flex-column">
+
+  <h1>{{ errorCode }}</h1>
+  <h3>{{errorTitle }}</h3>
+  <p>{{ errorMsg }}</p>
+
+  <p-button label="Go back to Homepage" styleClass="p-button-rounded" (click)="navigateToHome()"></p-button>
+</div>

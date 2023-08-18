@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   width: 100%;
   min-height: 2rem;
   margin: 0 auto;
@@ -28,8 +28,6 @@ body {
 
 // Global Overrides for primeNg ?
 .p-inputtext,
-.p-autocomplete,
-.p-inputwrapper {
+.p-autocomplete {
   width: 100%;
-  display: flex;
 }

@@ -1,3 +1,51 @@
+@import "/src/app/scss/variables";
+
 .hp-search {
     width: 100%;
+
+    .pi {
+      z-index: 100;
+      left: 1rem;
+    }
+}
+
+::ng-deep {
+  .hp-search .p-autocomplete-input {
+    padding-left: 2.5rem;
+  }
+
+  .hp-search {
+    &__suggestion {
+      
+    }
+
+    &__type {
+      font-size: 10px;
+      line-height: 10px;
+      width: fit-content;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 4px;
+      background: $secondary5;
+      color: $secondary;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+
+      &.question {
+        background: $primary10;
+        color: $primary;
+      }
+    }
+
+    &__title {
+      line-height: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    &__author {
+      font-size: 10px;
+      line-height: 10px;
+      color: $textMedium;
+    }
+  }
 }
