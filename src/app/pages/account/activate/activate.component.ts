@@ -19,7 +19,9 @@ export class ActivateComponent {
   }
 
   ngOnInit(): void {
-    console.log(`Asking to activate account with id : ${this.userId} using the following key : ${this.requestedKey}`);
+    if(this.userId || this.requestedKey){
+      console.log(`Asking to activate account with id : ${this.userId} using the following key : ${this.requestedKey}`);
+    }
   }
 
   ngOnDestroy(): void {

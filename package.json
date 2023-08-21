@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "serve-network": "ng serve --host 0.0.0.0",
+    "serve-local": "ng serve --host 0.0.0.0",
+    "serve-local-db": "json-server --host 0.0.0.0 --p 5200 src\\assets\\json\\local-db.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

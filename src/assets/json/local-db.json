@@ -1,0 +1,305 @@
+{ "articles-questions": [
+  {
+      "title": "How to make two-way binding in Angular",
+      "id": "1",
+      "type": "article",
+      "author": "John Papa",
+      "created": "2022-01-01 10:08:56"
+  },
+  {
+      "title": "Is two-way binding better than one-way binding?",
+      "id": "2",
+      "type": "question",
+      "author": "Misko Hevery",
+      "created": "2021-01-01 09:35:59"
+  },
+  {
+      "title": "Introduction to Python Variables",
+      "id": "3",
+      "type": "article",
+      "author": "Jane Smith",
+      "created": "2022-02-15 14:20:30"
+  },
+  {
+      "title": "How to handle exceptions in Java",
+      "id": "4",
+      "type": "question",
+      "author": "David Johnson",
+      "created": "2021-03-10 16:45:22"
+  },
+  {
+      "title": "JavaScript Promises Explained",
+      "id": "5",
+      "type": "article",
+      "author": "Sarah Williams",
+      "created": "2022-03-20 11:50:15"
+  },
+  {
+      "title": "Best practices for C++ memory management",
+      "id": "6",
+      "type": "question",
+      "author": "Michael Brown",
+      "created": "2021-04-05 08:55:42"
+  },
+  {
+      "title": "Working with Arrays in Ruby",
+      "id": "7",
+      "type": "article",
+      "author": "Emily Davis",
+      "created": "2022-04-18 13:15:08"
+  },
+  {
+      "title": "What is the difference between == and === in JavaScript?",
+      "id": "8",
+      "type": "question",
+      "author": "Chris Lee",
+      "created": "2021-05-12 17:30:29"
+  },
+  {
+      "title": "Getting Started with Swift Programming",
+      "id": "9",
+      "type": "article",
+      "author": "Daniel Clark",
+      "created": "2022-05-28 09:40:11"
+  },
+  {
+      "title": "How to optimize SQL queries for performance",
+      "id": "10",
+      "type": "question",
+      "author": "Jennifer Smith",
+      "created": "2021-06-22 12:25:17"
+  },
+  {
+      "title": "Rust Ownership and Borrowing Explained",
+      "id": "11",
+      "type": "article",
+      "author": "Robert Johnson",
+      "created": "2022-06-30 14:55:05"
+  },
+  {
+      "title": "What are the key features of TypeScript?",
+      "id": "12",
+      "type": "question",
+      "author": "Grace Evans",
+      "created": "2021-07-15 15:40:44"
+  },
+  {
+      "title": "PHP Error Handling Techniques",
+      "id": "13",
+      "type": "article",
+      "author": "Alex Turner",
+      "created": "2022-07-10 10:12:03"
+  },
+  {
+      "title": "How to use async/await in Python",
+      "id": "14",
+      "type": "question",
+      "author": "Laura White",
+      "created": "2021-08-04 16:10:27"
+  },
+  {
+      "title": "Understanding Object-Oriented Programming in Java",
+      "id": "15",
+      "type": "article",
+      "author": "Kevin Adams",
+      "created": "2022-08-20 11:30:09"
+  },
+  {
+      "title": "What are the benefits of using Go language?",
+      "id": "16",
+      "type": "question",
+      "author": "Oliver Brown",
+      "created": "2021-09-14 14:22:50"
+  },
+  {
+      "title": "Working with JSON in JavaScript",
+      "id": "17",
+      "type": "article",
+      "author": "Sophia Davis",
+      "created": "2022-09-28 09:18:37"
+  },
+  {
+      "title": "How to implement a linked list in C#",
+      "id": "18",
+      "type": "question",
+      "author": "Matthew Johnson",
+      "created": "2021-10-19 13:45:16"
+  },
+  {
+      "title": "Swift vs. Objective-C: Which is better for iOS development?",
+      "id": "19",
+      "type": "article",
+      "author": "Ella Baker",
+      "created": "2022-10-07 16:55:21"
+  },
+  {
+      "title": "Optimizing Database Queries in PostgreSQL",
+      "id": "20",
+      "type": "question",
+      "author": "Nathan Lewis",
+      "created": "2021-11-25 08:33:48"
+  }
+],
+  "users": [
+    {
+        "id": 1,
+        "user_id": "jdoe",
+        "email": "john.doe@infomil.mu",
+        "name": "John Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 2,
+        "user_id": "mdoe",
+        "email": "mary.doe@infomil.mu",
+        "name": "Mary Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 3,
+        "user_id": "adoe",
+        "email": "alice.doe@infomil.mu",
+        "name": "Alice Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 4,
+        "user_id": "pdoe",
+        "email": "peter.doe@infomil.mu",
+        "name": "Peter Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 5,
+        "user_id": "sdoe",
+        "email": "susan.doe@infomil.mu",
+        "name": "Susan Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 6,
+        "user_id": "jsmith",
+        "email": "john.smith@infomil.mu",
+        "name": "John Smith",
+        "position": "Team Manager",
+        "department": "Management"
+    },
+    {
+        "id": 7,
+        "user_id": "esmith",
+        "email": "emily.smith@infomil.mu",
+        "name": "Emily Smith",
+        "position": "Team Manager",
+        "department": "Management"
+    },
+    {
+        "id": 8,
+        "user_id": "kjohnson",
+        "email": "kevin.johnson@infomil.mu",
+        "name": "Kevin Johnson",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 9,
+        "user_id": "bdavis",
+        "email": "barbara.davis@infomil.mu",
+        "name": "Barbara Davis",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 10,
+        "user_id": "rdavis",
+        "email": "robert.davis@infomil.mu",
+        "name": "Robert Davis",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 11,
+        "user_id": "mjohnson",
+        "email": "michael.johnson@infomil.mu",
+        "name": "Michael Johnson",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 12,
+        "user_id": "ldavis",
+        "email": "laura.davis@infomil.mu",
+        "name": "Laura Davis",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 13,
+        "user_id": "tdoe",
+        "email": "thomas.doe@infomil.mu",
+        "name": "Thomas Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 14,
+        "user_id": "sdoe2",
+        "email": "sarah.doe@infomil.mu",
+        "name": "Sarah Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 15,
+        "user_id": "jdavis",
+        "email": "jennifer.davis@infomil.mu",
+        "name": "Jennifer Davis",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 16,
+        "user_id": "pdoe2",
+        "email": "patrick.doe@infomil.mu",
+        "name": "Patrick Doe",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 17,
+        "user_id": "gsmith",
+        "email": "grace.smith@infomil.mu",
+        "name": "Grace Smith",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 18,
+        "user_id": "jwilson",
+        "email": "james.wilson@infomil.mu",
+        "name": "James Wilson",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 19,
+        "user_id": "sdavis",
+        "email": "sophia.davis@infomil.mu",
+        "name": "Sophia Davis",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    },
+    {
+        "id": 20,
+        "user_id": "jsmith2",
+        "email": "jessica.smith@infomil.mu",
+        "name": "Jessica Smith",
+        "position": "Software Engineer",
+        "department": "Etude & Développement"
+    }
+  ]
+}

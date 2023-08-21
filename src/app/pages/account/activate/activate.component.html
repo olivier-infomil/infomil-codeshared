@@ -1,4 +1,11 @@
 <div class="container">
-  <p> Asking to activate account with id : {{ userId }} using the following key : {{ requestedKey }}</p>
+  <div *ngIf="userId || requestedKey">
+    <p>Asking to activate account with id : <strong>{{ userId }}</strong> using the following key : <strong>{{ requestedKey }}</strong></p>
+  </div>
+
+  <div *ngIf="!userId || !requestedKey">
+    <p>Activation Page</p>
+  </div>
+
 </div>
 

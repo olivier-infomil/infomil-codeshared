@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { Size } from 'src/app/shared/enums/size.enum';
 
 @Component({
@@ -8,10 +9,15 @@ import { Size } from 'src/app/shared/enums/size.enum';
 })
 export class LogoComponent {
 
+  constructor(private _router: Router){}
+
   @Input() size!: Size;
 
   ngOnInit(): void {
-    this.size = Size.MD;
+  }
+
+  navigateToHome(){
+    this._router.navigateByUrl("/");
   }
 
 }

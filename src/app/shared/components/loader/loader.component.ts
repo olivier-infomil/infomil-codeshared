@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class LoaderComponent {
 
+  public showLoader: boolean = true;
+
 }

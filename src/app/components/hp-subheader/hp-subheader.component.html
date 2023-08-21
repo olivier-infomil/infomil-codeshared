@@ -1,12 +1,13 @@
 <div class="hpSubHeader flex justify-content-between align-items-center">
-  <div>
+  <div *ngIf="currentUser.isLoggedIn">
     <span class="p-buttonset">
-      <p-button pRipple label="Post an Article" icon="pi pi-book" styleClass="p-button-text p-button-sm"></p-button>
-      <p-button pRipple label="Post a Question" icon="pi pi-question-circle" styleClass="p-button-text p-button-sm"></p-button>
+      <p-button pRipple label="Post an Article" icon="pi pi-book" styleClass="p-button-text p-button-sm" (click)="navigateTo('/articles/create')"></p-button>
+      <p-button pRipple label="Post a Question" icon="pi pi-question-circle" styleClass="p-button-text p-button-sm"  (click)="navigateTo('/questions/create')"></p-button>
     </span>
   </div>
 
-  <div class="hpSubHeader__search p-input-icon-left">
-    <app-hp-search></app-hp-search>
+  <div class="hpSubHeader__search p-input-icon-left flex align-items-center">
+    <app-hp-search class="flex-grow-1"></app-hp-search>
+    <p-button pRipple label="Advanced Search" icon="pi pi-cog" styleClass="p-button-text p-button-sm ml-2" (click)="navigateTo('/search')"></p-button>
   </div>
 </div>

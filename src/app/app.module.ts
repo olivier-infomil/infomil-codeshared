@@ -10,9 +10,12 @@ import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { AppRoutingModule } from './app-routing.module';
 import { AutoCompleteModule } from 'primeng/autocomplete';
+import { ListboxModule } from 'primeng/listbox';
 
 // Components
 import { AppComponent } from './app.component';
+import { HpSubheaderComponent } from './components/hp-subheader/hp-subheader.component';
+import { HpSearchComponent } from './components/hp-search/hp-search.component';
 
 // Shared Components
 import { NavigationComponent } from './shared/components/navigation/navigation.component';
@@ -37,9 +40,10 @@ import { DashboardComponent } from './pages/account/dashboard/dashboard.componen
 import { PlaygroundComponent } from './test/playground/playground.component';
 import { ErrorPageComponent } from './pages/errors/error-page/error-page.component';
 import { ActivateComponent } from './pages/account/activate/activate.component';
-import { HpSubheaderComponent } from './components/hp-subheader/hp-subheader.component';
-import { HpSearchComponent } from './components/hp-search/hp-search.component';
 import { SearchComponent } from './pages/search/search.component';
+
+// Singleton Services
+import { LoaderService } from './shared/services/loader.service';
 
 
 @NgModule({
@@ -80,8 +84,9 @@ import { SearchComponent } from './pages/search/search.component';
     ButtonModule,
     RippleModule,
     AutoCompleteModule,
+    ListboxModule
   ],
-  providers: [],
+  providers: [LoaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

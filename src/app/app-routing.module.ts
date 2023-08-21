@@ -24,17 +24,17 @@ const routes: Routes = [
   { path: 'articles', component: ListArticleComponent, data: {title:'Infomil KRS - Articles', showAccount: true}},
   { path: 'articles/view/:id', component: ViewArticleComponent, data: {title:'Infomil KRS - View article', showAccount: true}},
   { path: 'articles/edit/:id', component: AddEditArticleComponent, data: {title:'Infomil KRS - Edit article', showAccount: true}},
-  { path: 'articles/add', component: AddEditArticleComponent, data: {title:'Infomil KRS - Add article', showAccount: true}},
+  { path: 'articles/create', component: AddEditArticleComponent, data: {title:'Infomil KRS - Add article', showAccount: true}},
   { path: 'questions', component: ListQuestionComponent, data: {title:'Infomil KRS - Questions', showAccount: true}},
   { path: 'questions/view/:id', component: ViewQuestionComponent, data: {title:'Infomil KRS - View question', showAccount: true}},
   { path: 'questions/edit/:id', component: AddEditQuestionComponent, data: {title:'Infomil KRS - Edit a question', showAccount: true}},
-  { path: 'questions/add', component: AddEditQuestionComponent, data: {title:'Infomil KRS - Add a question', showAccount: true}},
+  { path: 'questions/create', component: AddEditQuestionComponent, data: {title:'Infomil KRS - Add a question', showAccount: true}},
 
-  { path: '400', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 404', showAccount: false, errorCode: 400}},
-  { path: '401', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 404', showAccount: false, errorCode: 401}},
+  { path: '400', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 400', showAccount: false, errorCode: 400}},
+  { path: '401', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 401', showAccount: false, errorCode: 401}},
   { path: '404', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 404', showAccount: false, errorCode: 404}},
   { path: '405', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 405', showAccount: false, errorCode: 405}},
-  { path: '408', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 405', showAccount: false, errorCode: 408}},
+  { path: '408', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 408', showAccount: false, errorCode: 408}},
   { path: '500', component: ErrorPageComponent, data: {title:'Infomil KRS - Error 500', showAccount: false, errorCode: 500}},
 
   // Catching all other routes for unknown paths

@@ -1,12 +1,32 @@
 @import "/src/app/scss/variables";
 
-h2 {
-  color: $primary;
-  text-transform: uppercase;
-  margin: 0;
+.logo {
+  width: auto;
+  cursor: pointer;
+  position: relative;
 
-  .pi {
-    font-size: 2.5rem;
-    color: $primary;
+
+  img {
+    width: auto;
+    height: 100%;
+    transition: all 0.3s linear;
+    margin-left: 0;
+  }
+
+  &.small {
+    height: 1.5rem;
+  }
+
+  &.medium {
+    height: 4rem;
+  }
+
+  &.large {
+    height: 8rem;
+  }
+
+  &:hover img {
+    margin-left: 0.5rem;
+    transition: all 0.3s linear;
   }
 }
