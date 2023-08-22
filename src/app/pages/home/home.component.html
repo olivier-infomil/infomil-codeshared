@@ -1,5 +1,29 @@
 <app-hp-subheader />
 
+<div class="section recentSection">
+  <app-hp-recent-articles />
+</div>
+
 <div class="container">
-  Home page
+  <div class="grid">
+
+    <div class="col-12 md:col-6 lg:col-8">
+      <div class="contentSections">
+        <h4>Latest Questions & Articles</h4>
+        <div class="content">
+            <app-hp-subscribed-articles />
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 md:col-6 lg:col-4">
+      <div class="contentSections">
+        <h4>Popular Articles</h4>
+        <div class="content">
+            <app-hp-popular-articles />
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>

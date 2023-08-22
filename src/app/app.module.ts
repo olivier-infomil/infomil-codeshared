@@ -11,6 +11,9 @@ import { RippleModule } from 'primeng/ripple';
 import { AppRoutingModule } from './app-routing.module';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { ListboxModule } from 'primeng/listbox';
+import { DropdownModule } from 'primeng/dropdown';
+import { MenuModule } from 'primeng/menu';
+import { PanelModule } from 'primeng/panel';
 
 // Components
 import { AppComponent } from './app.component';
@@ -44,6 +47,12 @@ import { SearchComponent } from './pages/search/search.component';
 
 // Singleton Services
 import { LoaderService } from './shared/services/loader.service';
+import { AdminComponent } from './pages/admin/admin.component';
+import { UserMenuComponent } from './shared/components/user-menu/user-menu.component';
+import { NotificationsComponent } from './pages/account/notifications/notifications.component';
+import { HpRecentArticlesComponent } from './components/hp-recent-articles/hp-recent-articles.component';
+import { HpPopularArticlesComponent } from './components/hp-popular-articles/hp-popular-articles.component';
+import { HpSubscribedArticlesComponent } from './components/hp-subscribed-articles/hp-subscribed-articles.component';
 
 
 @NgModule({
@@ -71,7 +80,13 @@ import { LoaderService } from './shared/services/loader.service';
     ActivateComponent,
     HpSubheaderComponent,
     HpSearchComponent,
-    SearchComponent
+    SearchComponent,
+    AdminComponent,
+    UserMenuComponent,
+    NotificationsComponent,
+    HpRecentArticlesComponent,
+    HpPopularArticlesComponent,
+    HpSubscribedArticlesComponent
   ],
   imports: [
     BrowserModule,
@@ -84,7 +99,10 @@ import { LoaderService } from './shared/services/loader.service';
     ButtonModule,
     RippleModule,
     AutoCompleteModule,
-    ListboxModule
+    ListboxModule,
+    DropdownModule,
+    MenuModule,
+    PanelModule
   ],
   providers: [LoaderService],
   bootstrap: [AppComponent]

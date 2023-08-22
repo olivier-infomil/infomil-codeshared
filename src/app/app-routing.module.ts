@@ -12,12 +12,16 @@ import { LogoutComponent } from './pages/account/logout/logout.component';
 import { ErrorPageComponent } from './pages/errors/error-page/error-page.component';
 import { AddEditQuestionComponent } from './pages/question/add-edit-question/add-edit-question.component';
 import { SearchComponent } from './pages/search/search.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { NotificationsComponent } from './pages/account/notifications/notifications.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full', data: {title:'Infomil KRS - Homepage', showAccount: true}},
   { path: 'search', component: SearchComponent, data: {title:'Infomil KRS - Advance search', showAccount: true} },
+  { path: 'admin', component: AdminComponent, data: {title:'Infomil KRS - Administrator dashboard', showAccount: true} },
   { path: 'user/:id', component: DashboardComponent, data: {title:'Infomil KRS - My dashboard', showAccount: true} },
+  { path: 'notifications', component: NotificationsComponent, data: {title:'Infomil KRS - Notifications', showAccount: true} },
   { path: 'activate', component: ActivateComponent, data: {title:'Infomil KRS - Activate your account', showAccount: false} },
   { path: 'activate/:id/:key', component: ActivateComponent, data: {title:'Infomil KRS - Activate your account', showAccount: false}},
   { path: 'logout', component: LogoutComponent, data: {title:'Infomil KRS - Logout', showAccount: false}},

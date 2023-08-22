@@ -4,14 +4,4 @@
   width: 100%;
   height: 100%;
   padding: 0.5rem 4rem;
-
-  .userSection {
-    position: relative;
-
-    &__listBox {
-      position: absolute;
-      right: 0.5rem;
-      top: calc(100% + 0.5rem);
-    }
-  }
 }

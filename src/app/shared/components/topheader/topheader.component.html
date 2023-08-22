@@ -5,27 +5,8 @@
 
   <div>
     <div class="userSection flex align-items-center" *ngIf="showAccountSection">
-      <span class="mr-3">Welcome {{ userName }}</span>
-      
-      <p-button  icon="pi pi-user" styleClass="p-button-rounded p-button-secondary mr-3" (click)="showListAction = !showListAction"></p-button>
-
-      <div class="userSection__listBox" *ngIf="showListAction">
-        <!-- Guests -->
-        <ng-container *ngIf="!currentUser.isLoggedIn">
-          <p-listbox [options]="guestAction" optionLabel="label" (onClick)="userActionClick($event.value)"></p-listbox>
-        </ng-container>
-
-        <!-- Registered User -->
-        <ng-container *ngIf="currentUser.isLoggedIn && !currentUser.isAdmin">
-          <p-listbox [options]="userAction" optionLabel="label" (onClick)="userActionClick($event.value)"></p-listbox>
-        </ng-container>
-
-        <!-- Admin User -->
-        <ng-container *ngIf="currentUser.isLoggedIn && currentUser.isAdmin">
-          <p-listbox [options]="adminAction" optionLabel="label" (onClick)="userActionClick($event.value)"></p-listbox>
-        </ng-container>
-      </div>
-
+      <span class="mr-3">Hello <strong>{{ currentUser.userName }}</strong></span>
+      <app-user-menu />
     </div>
   </div>
 
