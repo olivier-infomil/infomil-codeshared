@@ -1,5 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute } from "@angular/router";
+import { Router, ActivatedRoute } from "@angular/router";
+import { currentUser } from 'src/app/shared/contracts/currentUser.contract';
+import { GlobalService } from 'src/app/shared/services/global.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,16 +10,26 @@ import { ActivatedRoute } from "@angular/router";
 })
 export class DashboardComponent implements OnInit, OnDestroy {
 
+  public currentUser!: currentUser;
   public requestedId!: number;
 
-  constructor(private route: ActivatedRoute) {
-    this.route.params.subscribe( params => this.requestedId = parseInt(params['id']));
+  constructor(private _route: ActivatedRoute, private _router: Router, private _globalService: GlobalService) {
+    this._route.params.subscribe( params => this.requestedId = parseInt(params['id']));
   }
 
   ngOnInit(): void {
+
+    this._globalService.$currentUser.subscribe( settings => {
+      this.currentUser = settings;
+
+      if(this.currentUser.userId !== this.requestedId){
+        this._router.navigateByUrl("401")
+      }
+    });
+
     console.log('Opening profile dashboard for user ->', this.requestedId);
-    // After component initialization, fetch the user's data here
-    // For better performance you could also use cookies/session storage to store un-important data that can be accesed by the app without contacting the api again.
+    // After component initialization, fetch the user's data here, you can also use service based state management to store some infos if needed.
+
   }
 
   ngOnDestroy(): void {

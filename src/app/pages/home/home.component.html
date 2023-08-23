@@ -9,7 +9,8 @@
 
     <div class="col-12 md:col-6 lg:col-8">
       <div class="contentSections">
-        <h4>Latest Questions & Articles</h4>
+        <h4 *ngIf="!currentUser.isLoggedIn">Latest Questions & Articles</h4>
+        <h4 *ngIf="currentUser.isLoggedIn">My subscriptions</h4>
         <div class="content">
             <app-hp-subscribed-articles />
         </div>

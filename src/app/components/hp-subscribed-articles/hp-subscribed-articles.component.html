@@ -1,5 +1,12 @@
 <div class="container">
-  <div class="placeholder">
-    <span>Subscribtions</span>
-  </div>
+  <ng-container *ngIf="currentUser.isLoggedIn">
+    <div class="placeholder">
+      <span>Subscriptions</span>
+    </div>
+  </ng-container>
+  <ng-container *ngIf="!currentUser.isLoggedIn">
+    <div class="placeholder">
+      <span>Questions and articles</span>
+    </div>
+  </ng-container>
 </div>

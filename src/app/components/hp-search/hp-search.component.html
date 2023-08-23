@@ -3,22 +3,22 @@
   <p-autoComplete [(ngModel)]="searchVal" [suggestions]="filteredSearch" (completeMethod)="search($event)" (onSelect)="openArticle(searchVal)">
 
     <!-- basic templating (comment advance templating and de-comment the following to see difference)-->
-    <!-- 
+
       <ng-template let-articles pTemplate="item">
-      <div class="flex justify-content-center hp-search__suggestion">
+      <div class="flex hp-search__suggestion">
           {{ articles.title }}
       </div>
-      </ng-template> 
-    -->
+      </ng-template>
+
 
     <!-- Advanced templating of the autocomplete component -->
-    <ng-template let-articles pTemplate="item">
+    <!-- <ng-template let-articles pTemplate="item">
       <div class="flex justify-content-center hp-search__suggestion flex-column">
           <div class="hp-search__type" [ngClass]="{'question': articles.type === 'question'}">{{ articles.type }}</div>
           <div class="hp-search__title">{{ articles.title }}</div>
           <div class="hp-search__author">written by {{ articles.author }}</div>
       </div>
-    </ng-template>
+    </ng-template> -->
 
 
   </p-autoComplete>
